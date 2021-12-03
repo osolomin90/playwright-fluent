@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="download1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/fluent-api/tests/record-downloads-to/download.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

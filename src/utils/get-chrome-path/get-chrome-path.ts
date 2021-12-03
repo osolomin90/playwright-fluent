@@ -19,9 +19,9 @@ export function getChromePath(): string {
 
     case 'Linux':
       if (which.sync('google-chrome-stable', { nothrow: true })) {
-        return 'google-chrome-stable';
+        return which.sync('google-chrome-stable');
       }
-      return 'google-chrome';
+      return which.sync('google-chrome');
 
     default:
       throw new Error('You should supply the path to the Chrome App in the launch options');
